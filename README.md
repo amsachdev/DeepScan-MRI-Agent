@@ -4,25 +4,25 @@ AI Radiology Report Summarization Agent
 
 Automatically extracts key clinical insights from MRI PDF reports using AI-driven Findings/Impression analysis.
 
-🧠 Overview
+- Overview
 
 DeepScan MRI Agent is an AI-powered application that reads MRI radiology PDF reports, extracts relevant sections (Findings, Impression, or full report text), and generates:
 
-✔ Summaries (1–3 sentences)
+- Summaries (1–3 sentences)
 
-✔ Severity ratings (mild / moderate / severe / none / uncertain)
+- Severity ratings (mild / moderate / severe / none / uncertain)
 
-✔ Severity scores (0–5)
+- Severity scores (0–5)
 
-✔ Per-report CSV + JSON output
+- Per-report CSV + JSON output
 
-✔ Clean GUI experience
+- Clean GUI experience
 
 Designed for medical practices, diagnostic teams, and researchers who need fast, consistent interpretation of radiology report text.
 
 This agent uses OpenAI’s Responses API for robust summarization and clinical language understanding.
 
-🚀 Key Features
+- Key Features
 AI-Powered NLP Radiology Summaries
 
 Automatically extracts and interprets:
@@ -59,11 +59,14 @@ Simple cross-platform GUI built with Tkinter.
 
 Project Structure
 
-DeepScan-MRI-Agent/
-│
+- DeepScan-MRI-Agent/
+
 ├── mri_aggregator_app.py        # Main application
+
 ├── README.md                    # Documentation
+
 ├── assets/                      # Logos, icons, branding
+
 └── output/                      # CSV + JSON summaries
 
 
@@ -90,7 +93,7 @@ OPENAI_API_KEY = "YOUR_OPENAI_KEY_HERE"
 Run the App
 python mri_aggregator_app.py
 
-🖥 Supported Platforms
+- Supported Platforms
 
 macOS (Intel + Apple Silicon)
 
