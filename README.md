@@ -57,7 +57,8 @@ GUI
 
 Simple cross-platform GUI built with Tkinter.
 
-📂 Project Structure
+Project Structure
+
 DeepScan-MRI-Agent/
 │
 ├── mri_aggregator_app.py        # Main application
@@ -65,7 +66,8 @@ DeepScan-MRI-Agent/
 ├── assets/                      # Logos, icons, branding
 └── output/                      # CSV + JSON summaries
 
-🔧 Requirements
+
+Requirements
 
 Python 3.12+
 
